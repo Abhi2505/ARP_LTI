@@ -23,17 +23,18 @@ export class UserLoginComponent implements OnInit {
 
   loginUser()
 
-  {console.log("hi",this.bol)
+  { //console.log("hi",this.bol)
        if(this.email!=null && this.password!=null)
     {
     this.bol = false;
     this.userService.loginUser(this.email,this.password).subscribe((data:any)=>{
+      console.log(data);
       this.user=data;
       if(this.user.email == this.email && this.user.password == this.password)
       {
-        localStorage.setItem('userId',this.user.userId.toString());
-        localStorage.setItem('userName',this.user.firstName.toString());
-        console.log(localStorage.getItem('userId'));    
+        // localStorage.setItem('userId',this.user.userId.toString());
+        // localStorage.setItem('userName',this.user.firstName.toString());
+//        console.log(localStorage.getItem('userId'));    
         this.router.navigateByUrl("userDash");
       }
       else

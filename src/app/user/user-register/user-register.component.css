@@ -11,6 +11,7 @@
   body{
     min-height: 150vh;
     background-image: linear-gradient(180deg,#080808,#8e44ad);
+    color: #fff;
   }
   
   .login-form{
@@ -89,25 +90,25 @@
     transition: .5s;
     border-radius: 10px;
   }
-  
+/*   
   .logbtn:hover{
     background-position: right;
   }
-  
+   */
   .bottom-text{
     margin-top: 40px;
     text-align: center;
     font-size: 15px;
   }
   /* lets add */
-  * {
+  /* * {
     box-sizing: border-box;
-  }
-  body {
+  } */
+  /* body {
     font-family: poppins;
     font-size: 16px;
     color: #fff;
-  }
+  } */
   .form-box {
     background-color: rgba(0, 0, 0, 0.5);
     margin: auto auto;
@@ -181,17 +182,17 @@
     bottom: 1px;
     background-color: #ddd;
   } */
-  .form-box input[type=checkbox]:checked+label:before {
+  /* .form-box input[type=checkbox]:checked+label:before {
     content: "\2713";
     font-size: 20px;
     color: #fff;
     text-align: center;
     line-height: 20px;
-  }
+  } */
   .form-box span {
     font-size: 14px;
   }
-  .form-box button {
+  /* .form-box button {
     background-color: deepskyblue;
     color: #fff;
     border: none;
@@ -201,7 +202,7 @@
     font-size: 18px;
     padding: 10px;
     margin: 20px 0px;
-  }
+  } */
   /* span a {
     color: #BBB;
   } */
